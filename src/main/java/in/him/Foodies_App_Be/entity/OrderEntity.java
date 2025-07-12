@@ -13,7 +13,7 @@ import java.util.List;
 @Builder
 public class OrderEntity {
     @Id
-    private String Id;
+    private String id;
     private String userId;
     private String userAddress;
     private String phoneNumber;
@@ -23,5 +23,6 @@ public class OrderEntity {
     private String paymentStatus;
     private String razorpayOrderId;
     private String razorpaySignature;
+    private String razorpayPaymentId;
     private String orderStatus;
 }

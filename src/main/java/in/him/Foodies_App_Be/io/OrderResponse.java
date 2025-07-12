@@ -4,6 +4,8 @@ package in.him.Foodies_App_Be.io;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @Builder
 public class OrderResponse {
@@ -16,4 +18,5 @@ public class OrderResponse {
     private String paymentStatus;
     private String razorpayOrderId;
     private String orderStatus;
+    private List<OrderItem> orderItemList;
 }
